@@ -4,7 +4,10 @@ Powered by Laravel, Livewire and Tailwind
 
 ## Requirements
 
-Check out [Laravel docs](https://laravel.com/docs/8.x/installation#server-requirements)
+PHP 7.3, Composer
+
+Check out 
+[Laravel docs](https://laravel.com/docs/8.x/installation#server-requirements)
 and  (optional) npm
 
 ## Installation
@@ -21,6 +24,7 @@ In project folder run:
       DB_CONNECTION=sqlite
       DB_DATABASE=/absolute/path/to/database.sqlite
     ```
+- `php artisan migrate --seed`
 - (optional) `npm install` and `npm run dev`
 
 ## Running
